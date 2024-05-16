@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>留言板</title>
+    <link href="css/new_file.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="top">
+        <div id="logo">
+            你想活出怎样的人生
+        </div>
+        <div id="nav">
+            <ul>
+				<li><a href="page01.html">首页</a></li>
+                <li><a href="page02.html">作者</a></li>
+                <li><a href="page03.html">其他作品</a></li>
+                <li><a href="page04.html">人物经历</a></li>
+                <li><a href="page05.html">留言板</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <div id="message-board">
+        <h2>留言板</h2>
+        <form id="myForm">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="message">留言：</label>
+            <textarea id="message" required></textarea>
+            <br>
+            <button type="button" onclick="submitMessage()">提交留言</button>
+        </form>
+        <div id="messages">
+            <div>
+                <p><strong>开心逛逛：</strong>一个是小我的世界，一个是真实的世界。小世界玄幻强大，也被维持的战战兢兢，当它不堪重负，凶猛的打开门冲出来融入大世界时，突然发现，其实自己很渺小，杀伤力甚至堪比“小可爱”，原来在小世界里一切都会被放大，甚至失真。人生就是选择之旅，也是破壁之旅。太拷问灵魂了。老爷子的封山之作，确实令人回味。</p>
+            </div>
+			
+            <div>
+                <p><strong>傫傫兮：</strong>一切童话都是大人书写的。正如柄谷行人在《儿童的发现》中所指出的，儿童是近代才形成的一个东西。相对于传统的“小大人”，现代制度产生出一种颠倒：儿童通过童话被发现了，进而产生出儿童和大人之间的断裂。“教育学”创造了一个与大人的世界完全无关的非现实（非矛盾）的抽象原始的环境，从而创造出一种关于孩子的神话。这样的神话让社会消除了文化的罪恶，使自身正当化，在想象的统一中将文化理想化：一个社会在教育学中梦想自身的黄金时代。</p>
+            </div>
+			<div>
+			    <p><strong>Timon：</strong>宫崎骏的收官之战，反战和故事融合的特别好，还是他特有的那种奇幻童话杂糅着现实的风格。特别喜欢雾子这个角色，年轻时期特别利落，潇洒，很饱满的女性角色，光是在女性角色的塑造上，其他大部分日本男创作家就有的学了（虽然他们可能也不太想学）；夏子也是很妙的一个人物，会有情绪的爆发，不只是一个虚假的母性光辉的假壳子罢了。</p>
+			</div>
+			<div>
+			    <p><strong>鲤光：</strong>无论我们在过怎样的人生，面对命运里的不尽如意，不被情绪裹挟，不被幻想蒙蔽，去追寻广褒的爱和自由，不放弃探寻答案的旅途，已经足够美好，足够勇敢。</p>
+			</div>
+        </div>
+    </div>
+<script src="js/validate.js"></script>
+</div> 
+   <div style="text-align:center;font-style:italic;color:#888;margin-top:10px;">以上留言内容摘自豆瓣</div>
+    <div id="bottom" style="position: fixed; bottom: 0; width: 100%; background-color: #55aaff;">
+          <p class="txt" style="text-align:center;color:white;">联系我:Building One, Room 529<br>
+          欢迎致电:10086<br>
+          Be happy, but work hard.</p>
+      </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body        {margin:0px auto;
+			background:rgb(245,245,245);}
+			#top{width:100%;height: 166px;
+			background-image: url(../img/12.png);
+			background-size:cover;}
+			#logo{margin:0 auto;
+			height: 100px;width:1000px;
+			color:white;font-weight: bolder;
+			font-size:60px;
+			text-align: right;}
+			#nav{margin:0 auto;
+			padding-left:20px;padding-right: 20px;
+			width:960px;height: 66px;}
+			#nav ul{padding:0px;margin:0px;list-style: none;}
+			#nav ul li{float:left;}
+			#nav li a{display: block;width:120px;height: 66px;
+			text-decoration: none;color:white;
+			text-align: center;line-height: 66px;}
+			#nav li a:hover{border-bottom: 2px solid rgb(0,113,247);
+			height: 64px;color:rgb(0,113,247);background:white;}
+			#middle{width:1000px;height: 1000px;
+			margin:0 auto;background:rgb(245,245,245);
+			padding-top:15px;
+			padding-bottom: 15px;}
+			#right{width:585px;height:1000px;
+			background:bga(245,245,245);float:left;
+			margin-right: 15px;}
+			#left{width:400px;height:1000px;
+			background:white;float:right;font-size:15px;}
+			#content{width:100%;height:315px;
+			background-color: #fff;position: relative;
+			border-bottom: 15px solid rgb(245,245,245);
+			position:relative;}
+			
+			#content #title{width:300px;height: 55px;
+			position: absolute;background:rgb(85, 170, 255);
+			top:-20px;left:0px;line-height: 40px;
+			text-align: center;color:white;}
+			
+			
+			#content img{width:585px;height: 315px;}
+			#bottom{width:100%;height: 120px;
+			background-color:rgb(85, 170, 255);}
+			.txt{color:#777;line-height:20px;
+			text-indent: 2em;line-height: 35px;}
+			.lin{color:#777;text-decoration: none;
+			display: block;width: 100%;
+			height: 40px;line-height: 40px;
+			border-bottom: 1px dashed #777;
+			text-indent: 2em;}
+			.lin:hover{color:rgb(45, 220, 247);font-weight: bold;}
+		
+			.container {
+			    max-width: 800px; 
+			    margin: 0 auto; 
+			    padding: 0 20px;
+			}
+			
+			.container > * {
+			    width: 100%;
+			    box-sizing: border-box;
+			}
+			
+			.text {
+			    padding-left: 20px;
+			}
+			
+img {
+            
+                  width: auto; 
+                  height: auto; 
+        }
+a {
+    text-decoration: none; 
+	color: blue;
+}
